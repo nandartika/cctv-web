@@ -1,0 +1,6 @@
+@use "../base" as *;
+
+.gallery-grid {
+  @include grid;
+  @include gridAuto(260px);
+}
